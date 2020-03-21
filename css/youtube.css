@@ -1,0 +1,55 @@
+.youtube__header {
+  font-size: 22px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.youtube__header-icon {
+  margin-left: 10px;
+}
+.player {
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  background-color: white;
+}
+.player video {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+}
+.hashtags {
+  display: flex;
+  font-size: 13px;
+  color: blue;
+}
+.hashtags li {
+  padding-right: 6px;
+}
+.titleandBtn {
+  display: flex;
+  font-size: 20px;
+  padding: 3px;
+}
+.titleandBtn .more {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.views {
+  font-size: 13px;
+  padding: 5px 0px;
+}
+.actions {
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  text-align: center;
+}
+.actions .button {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}

@@ -24,6 +24,7 @@
   display: flex;
   font-size: 13px;
   color: blue;
+  margin-top: 5px;
 }
 .hashtags li {
   padding-right: 6px;
@@ -44,7 +45,7 @@
 }
 .actions {
   display: flex;
-  font-size: 22px;
+  font-size: 20px;
   justify-content: space-between;
   text-align: center;
 }
@@ -52,4 +53,81 @@
   display: flex;
   flex-direction: column;
   margin: 10px auto;
+  cursor: pointer;
+}
+.btnnum {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin: 10px 0px;
+  padding-bottom: 5px;
+}
+.channel .metadata {
+  display: flex;
+}
+.metadata img {
+  width: 60px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 40px;
+  margin-right: 13px;
+}
+.channel .metadata .info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.hostname {
+  font-size: 15px;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+.subsnum {
+  font-size: 12px;
+}
+.subscribe {
+  border: none;
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  align-self: center;
+}
+.upnext {
+  font-size: 13px;
+  font-weight: 600;
+}
+.next__column {
+  display: flex;
+  margin-top: 15px;
+}
+.next__column img {
+  width: 180px;
+  height: 120px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.next__column-detail {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.next__column-title {
+  font-size: 17px;
+}
+.next__column-sub {
+  font-size: 13px;
+  margin: 5px 0px;
+}
+.next__column-views {
+  font-size: 12px;
 }

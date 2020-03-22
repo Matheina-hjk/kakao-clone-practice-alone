@@ -1,0 +1,11 @@
+.more .friend__name {
+  font-weight: 600;
+}
+.more .friend__status {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.more__btn-list {
+  margin-top: 20px;
+}
